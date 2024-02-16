@@ -4,7 +4,7 @@
 <header class="header header--loggedIn">
     <div class="container">
       <a href="{% url 'home' %}" class="header__logo">
-        <img src="{% static 'images/logo.svg' %}" />
+        <img class="lgoimg" src="{% static 'images/logo.png' %}" style="width: 60px; height: 60px" />
         <h1>StudyBuddy</h1>
       </a>
       <form class="header__search" method="GET" action="{% url 'home' %}" enctype="multipart/form-data">
